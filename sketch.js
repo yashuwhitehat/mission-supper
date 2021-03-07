@@ -1,5 +1,6 @@
 var helicopterIMG, helicopterSprite, packageSprite,packageIMG;
 var packageBody,ground
+var line1,line2,line3
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -26,6 +27,16 @@ function setup() {
 
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
+	
+	line1=createSprite(width/2,hight-50,200,20);
+	line1.shapeColor=color("blue");
+
+	line2=createSprite(510,610,20,100);
+	line2.shapeColor=color("blue");
+
+	line3=createSprite(310,610,20,100);
+	line3.shapeColor=color("blue");
+
 
 
 	engine = Engine.create();
