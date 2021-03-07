@@ -61,6 +61,12 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
+	
+  packageSprite.collide(line1);
+  packageSprite.collide(line2);
+  packageSprite.collide(line3);
+	
+	
   drawSprites();
  
 }
