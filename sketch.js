@@ -27,7 +27,7 @@ function setup() {
 
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
-	
+
 	
 	line1=createSprite(width/2,hight-50,200,20);
 	line1.shapeColor=color("blue");
